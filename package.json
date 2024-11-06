@@ -1,0 +1,33 @@
+{
+  "name": "intranet",
+  "version": "0.0.1",
+  "description": "Um projeto de Intranet da Globaltrak Rastreamento",
+  "productName": "Intranet Globaltrak",
+  "author": "github.com/ofelipemedeiros",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "@supabase/supabase-js": "^2.44.3",
+    "axios": "^1.2.1",
+    "pinia": "^2.0.11",
+    "quasar": "^2.8.0",
+    "vue": "^3.4.18",
+    "vue-router": "^4.0.12",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.8.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.14"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
